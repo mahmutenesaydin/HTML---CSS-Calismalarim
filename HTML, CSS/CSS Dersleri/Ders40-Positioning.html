@@ -1,0 +1,86 @@
+<!--Position ==> static | relative | fixed| absolute | sticky -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positioning</title>
+
+    <style>
+        #first {
+            background: red;
+            width: 300px;
+            height: 300px;
+        }
+        
+        #second {
+            background: blue;
+            width: 150px;
+            height: 150px;
+            position: relative;
+            top: 30px;
+            left: 30px;
+        }
+        
+        #third {
+            background: green;
+            width: 150px;
+            height: 150px;
+            position: absolute;
+            top: 30px;
+            left: 30px;
+        }
+        
+        #forty {
+            background: gold;
+            width: 150px;
+            height: 150px;
+            position: relative;
+        }
+        
+        #fifty {
+            background: gray;
+            width: 150px;
+            height: 150px;
+            position: fixed;
+            top: 0;
+            right: 0;
+        }
+        
+        #sixty {
+            background: pink;
+            width: 150px;
+            height: 150px;
+            position: fixed;
+            bottom: 0;
+            right: 0;
+        }
+        
+        #seventy {
+            background: purple;
+            width: 150px;
+            height: 150px;
+            position: sticky;
+            top: 0;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div id="first">#1</div>
+    <div id="second">#2</div>
+    <div id="third">#3</div>
+    <div id="forty">#4</div>
+    <div id="fifty">#5</div>
+    <div id="sixty">#6</div>
+    <div id="seventy">#7</div>
+    <div id="a">#5</div>
+    <div id="b">#6</div>
+    <div id="c">#7</div>
+</body>
+
+</html>

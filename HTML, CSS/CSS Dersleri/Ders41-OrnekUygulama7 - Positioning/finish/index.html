@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positioning Example</title>
+
+    <style>
+        .box {
+            width: 150px;
+            height: 150px;
+        }
+        /*relative'de olduğu kutunun içinden başlar ama absolute'de en üsten başlar yani olduğu kutuyu dikkate almaz*/
+        
+        .minibox {
+            width: 50px;
+            height: 50px;
+            background: black;
+            position: absolute;
+            top: 30px;
+        }
+        
+        #first {
+            background: blue;
+            position: fixed;
+            /*bu artık sabit kalır ve bir yere gitmez, sayfa aşağı indikçe de aşağıda sabit kalır*/
+            top: 0;
+            right: 0;
+        }
+        
+        #second {
+            background: red;
+            position: sticky;
+            /*artık üsteki minibox içinde olan abolute'yi değil bunu dikkate alır*/
+            top: 30px;
+            width: 100%;
+        }
+        
+        #third {
+            background: green;
+            position: relative;
+            /*artık üsteki minibox içinde olan abolute'yi değil bunu dikkate alır*/
+        }
+    </style>
+
+</head>
+
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi est eaque et officia, suscipit dolorum non optio! Tempore placeat voluptatum qui saepe voluptatem possimus exercitationem ipsum a! Ex, corporis modi!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis eveniet corrupti ea iste maxime et odit asperiores enim adipisci ipsam ullam, nulla sint natus officia saepe beatae corporis amet? Quasi!</p>
+    <div class="box" id="first">#1</div>
+    <div class="box" id="second">
+        <div class="minibox"></div>
+    </div>
+    <div class="box" id="third">#3</div>
+    <div style="height: 2000px;"></div>
+</body>
+
+</html>

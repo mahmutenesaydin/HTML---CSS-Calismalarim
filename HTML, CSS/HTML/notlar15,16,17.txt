@@ -1,0 +1,8 @@
+<hr> etiketi = Düz bir çizgi çizmemizi saðlayan etikettir.
+
+<input> etiketi = Form elemanlarýný oluþturmakta kullanýlýr.
+type prm = *text => Metin Kutusu
+		   *radio => Tekli seçim
+		   *checkbox => Çoklu seçim
+		   *Button=>Düðme
+<select> etiketi = Açýlýr liste oluþturmakta kullanýlýr."option"etiketlerinin arasýna yazýlýr.

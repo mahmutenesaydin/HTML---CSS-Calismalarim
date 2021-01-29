@@ -1,0 +1,7 @@
+<a> = Link etiketidir. 
+	  Web sayfalarýna link vermekte kullanýlýr.
+	  Kapatýlan bir etikettir
+--href prm = Yönlenilecek sayfanýn adýnýn ya da 
+			 adresinin belirlenmesinde kullanýlýr
+--target prm = Yönlenilen sayfanýn hangi sekmede açýlacaðýnýn
+			   belirlenmesinde kullanýlýr

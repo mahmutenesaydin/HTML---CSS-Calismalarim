@@ -1,0 +1,93 @@
+/* Pseudo Elements = Bir elemanın bir parçasını seçeceksek bunu kullanıyoruz. Kullanırken çift nokta(::) kullanıyoruz*/
+
+p::first-line {
+    font-weight: bold;
+    color: brown;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+}
+
+p.about::first-line {
+    color: green;
+}
+
+p::first-letter {
+    font-size: 58px;
+}
+
+p::after {
+    content: "#MEA";
+    display: block;
+    background-color: yellow;
+    padding: 5px;
+}
+
+p::before {
+    content: "mhmtens13";
+    display: grid;
+    background-color: purple;
+    padding: 5px;
+}
+
+
+/* Pseudo Class = Bir kapsamı seçerkende bunu kullanıyoruz. Kullanırken tek nokta(:) kullanıyoruz*/
+
+ul li {
+    padding: 7px;
+    margin-bottom: 8px;
+    list-style: none;
+}
+
+ul li:first-child {
+    background-color: red;
+}
+
+ul li:last-child {
+    background-color: seagreen;
+}
+
+ul li:nth-of-type(even) {
+    /*numarası çift olan liste elemanları*/
+    border: 2px solid green;
+}
+
+ul li:nth-of-type(odd) {
+    /*numarası tek olan liste elemanları*/
+    border: 2px dashed blue;
+}
+
+a {
+    padding: 5px 8px;
+    text-decoration: none;
+    display: block;
+    width: 80px;
+    border: 1px solid gray;
+    margin-bottom: 10px;
+}
+
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: midnightblue;
+}
+
+a:hover {
+    color: lightskyblue;
+    background: lime;
+}
+
+a:active {
+    color: magenta;
+    background: gold;
+}
+
+span {
+    display: none;
+    background: yellow;
+}
+
+div:hover span {
+    display: block;
+}

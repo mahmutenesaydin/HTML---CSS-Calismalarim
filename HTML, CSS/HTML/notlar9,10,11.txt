@@ -1,0 +1,14 @@
+<table> = Tablo oluþturmakta kullanýlýr
+
+border prm = tablo kenarlýðýný,
+<tr> etiketi = tablonun satýrlarýný,
+<td> etiketi = satýrlarda yer alan hücreleri oluþturmakta kullanýlýr.
+
+colspan prm = yan yana olan,
+rowspan prm = alt alta olan hücrelerin birleþtirilmesinde kullanýlýr.
+
+align prm = Hizalama amacýyla kullanýlýr."left, rigth, center" deðerleri alýr
+bgcolor prm = arkaplan rengi vermekte kullanýlýr.
+
+cellspacing prm = Hücrelerin dýþ kýsmýndaki boþluklarý ifade eder.
+cellpadding prm = Hücrelerin iç kýsmýndaki boþluklarý ifade eder.

@@ -1,0 +1,27 @@
+<b> etiketi ve <strong> etiketi = Yazıları kalın yapar
+<br> ve <br/> etiketi = Satır boşluğu, bir alt satır.
+<u> etiketi = Yazıları altı çizili yapar.
+<i> etiketi = İtalik yazı(eğik)
+
+<font> etiketi = Renk, yazı tipi, ve yazı büyüklüğü verir
+	color prm = Renk,
+	size prm = Boyut,
+	face prm = Yazı tipi verir
+
+<img> etiketi = Resim
+	src prm = Eklenilecek resmi belirlemek,
+	width prm = Genişlik,
+	height prm = yükseklik,
+	title prm = Açıklama,
+	alt prm = Arama motoruna açıklama,
+	border prm = Kenarlık
+
+<ol> etiketi = Maddeler halinde(sıralı liste) <li> etiketi ile oluşturulur.
+	type prm = Sıralı listenin türünü,
+	start prm = Sıralı listenin hangi sıradan başlayağını belirler.
+
+<ul> etiketi = Sırasız listede kullanılır.
+	square prm = İçi dolu kare,
+	circle prm = İçi boş çember,
+	disc prm = İçi dolu çember
+ 

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            color: brown;
+            font-size: 40px;
+        }
+        
+        ul {
+            color: coral;
+            font-size: 35px;
+        }
+        
+        li {
+            color: chartreuse;
+            font-size: 30px;
+        }
+        
+        .orange {
+            color: orange !important;
+            /*important, en baskın elemandır. ne olursa olsun sözü geçer*/
+            font-size: 25px;
+        }
+        
+        #name {
+            color: gray;
+            font-size: 20px;
+        }
+        
+        a {
+            color: red;
+            font-size: 27px;
+            color: inherit;
+            /*Inherit; bir üst elemanı olan li'nin hangi özellik uygulanıyorsa o uygulanır*/
+        }
+        
+        span {
+            color: wheat;
+            border: 1px dashed green;
+        }
+        
+        #inherit span {
+            color: inherit;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h1>Mahmut Enes Aydın</h1>
+
+    <ul>
+        <li id="name" class="orange">Sivas</li>
+        <li>Hafik</li>
+        <li class="orange">Pusat</li>
+        <li><a href="#">Beşiktaş</a></li>
+    </ul>
+
+    <div style="color: aqua;">Boğaz'daki piknik günleri ne güzeldi, <span>nerede o eski günler</span></div>
+    <div style="color: aquamarine;">Boğaz'daki piknik günleri ne güzeldi, <span>nerede o eski günler</span></div>
+    <div id="inherit">Boğaz'daki piknik günleri ne güzeldi, <span>nerede o eski günler</span></div>
+
+</body>
+
+</html>

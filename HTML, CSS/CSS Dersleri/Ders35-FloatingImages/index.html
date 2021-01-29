@@ -1,0 +1,42 @@
+<!--Floating Images, sayfamızdaki resimlerin yerlerini değiştirmemizi sağlıyor.-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Floating Images</title>
+
+    <style>
+        p {
+            border: 1px solid gray;
+            padding: 5px;
+        }
+        
+        .clear {
+            overflow: auto;
+        }
+        
+        img {
+            width: 200px;
+            float: left;
+            /*float: left; resim sol tarafa geçtiği için yazı direk resimin yanından başlıyor*/
+            margin-right: 10px;
+            /*Resimle yazı arasında sağdan 10px'lik boşluk bırakıyor*/
+        }
+    </style>
+
+</head>
+
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro voluptate fugiat illo ea sunt maxime vero cupiditate non ducimus animi quam, distinctio aliquid id ullam, perspiciatis ipsum accusamus aliquam esse.</p>
+    <p class="clear">
+        <img src="img/mea.jpg"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat necessitatibus dolorem placeat magnam obcaecati natus aperiam mollitia, fuga nostrum! Animi totam facere accusamus consequuntur amet laboriosam commodi sed,
+        quo ducimus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat necessitatibus dolorem placeat magnam obcaecati natus aperiam mollitia, fuga nostrum! Animi totam facere accusamus consequuntur amet laboriosam commodi sed, quo ducimus!
+        totam facere accusamus consequuntur amet laboriosam commodi sed, quo ducimus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat necessitatibus dolorem placeat magnam obcaecati natus aperiam mollitia, fuga nostrum! Animi totam facere
+        accusamus consequuntur amet laboriosam commodi sed, quo ducimus!
+    </p>
+</body>
+
+</html>

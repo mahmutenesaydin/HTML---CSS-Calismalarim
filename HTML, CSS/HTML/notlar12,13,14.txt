@@ -1,0 +1,9 @@
+background prm = Arka plana bir resim kullanmakta kullanýlýr.
+
+<iframe> etiketi = Sayfaya çerçeve eklemekte kullanýlýr.
+width prm = geniþlik,
+height prm = yükseklik
+src prm = çerçevenin içinde görüntülenecek HTML sayfasýnýn belirlenmesi
+frameborder prm = çerçeve kalýnlýðý
+name prm = çerçeve adýnýn belirlenmesi
+scrolling prm = Kaydýrma çubuklarýnýn aktif ya da pasif yapýlmasý için kullanýlýr.

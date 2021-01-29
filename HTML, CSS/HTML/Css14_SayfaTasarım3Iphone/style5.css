@@ -1,0 +1,71 @@
+.ust{ width:100%; height:46px; background:#333 }
+.orta1{ width:100%; height:575px; background:#fff }
+.orta2{ width:100%; height:200px; background:#fff }
+.alt{ width:100%; height:82px; background:#fff }
+.menu{ width:1078px; height:46px; margin:0 auto }
+.menu li{ float:left }
+.menu a{ display:block; text-indent:-2000px }
+.menu li#logo a{ width:19px;height:23px;background:url(images/tab_apple.png);margin:11px 0 0 0}
+.menu li#store a{width:130px; height:20px; background:url(images/tab_store.png); margin:15px 0 0 0}
+.menu li#mac a{width:130px; height:20px; background:url(images/tab_mac.png); margin:15px 0 0 0 }
+.menu li#store a{width:130px; height:20px; background:url(images/tab_store.png); margin:15px 0 0 0}
+.menu li#mac a{width:130px; height:20px; background:url(images/tab_mac.png); margin:15px 0 0 0}
+.menu li#iphone a{width:130px; height:20px;background:url(images/tab_iphone.png);margin:15px 0 0 0}
+.menu li#watch a{width:130px; height:20px; background:url(images/tab_watch.png); margin:15px 0 0 0}
+.menu li#ipad a{ width:130px; height:20px; background:url(images/tab_ipad.png); margin:15px 0 0 0}
+.menu li#ipod a{ width:130px; height:20px; background:url(images/tab_ipod.png); margin:15px 0 0 0}
+.menu li#itunes a{width:130px;height:20px;background:url(images/tab_itunes.png); margin:15px 0 0 0}
+.menu li#support a{width:130px;height:20px;background:url(images/tab_support.png);margin:15px 0 0 0}
+.menu li#search a{ width:19px; height:19px; background:url(images/search_icon_white.png); margin:15px 0 0 0}
+.menu a:hover{ opacity:0.5}
+.spot{ width:280px; height:150px; background:url(images/ipadair_logo_large.png) center top no-repeat; margin:0 auto; text-align:center; padding:70px 0 0 0; font:40px 'Open Sans Condensed'}
+.ipadGorsel{width:1193px;height:34px; margin:0 auto;background:url("images/ipadair_xlarge.jpg")}
+.ipadAlt{ width:375px; height:40px; margin:50px auto 0 auto}
+.ipadAltSol{ width:145px; height:40px; float:left }
+.ipadAltSag{ width:220px; height:40px; float:left; margin:0 0 0 10px }
+.ipadAltSol a{ font:32px 'Open Sans Condensed'; color:#08c; text-decoration:none }
+.ipadAltSag a{ display:block; font:32px 'Open Sans Condensed'; color:#08c; text-decoration:none;
+			   background: url("images/sagok1.png") right no-repeat}
+.ipadAltSol a:hover{ color:#333 }
+.ipadAltSag a:hover{color:#333; background:url("images/sagok2.png") right no-repeat}
+
+
+
+
+
+
+
+
+
+
+
+/***** RESET *****/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var, b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	/*font-size: 100%;
+	vertical-align: baseline;*/
+	
+}
+html, body {height:100%;}
+body {line-height: 1;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after, q:before, q:after {content: '';content: none;}
+table {border-collapse: collapse;border-spacing: 0;} /
+textarea {overflow:auto;}
+
+/***** RESET *****/
+
+@font-face {
+	font-family:'Open Sans Condensed';
+	src: url(fonts/open_sans_condensed-webfont.eot);
+	src: local('Open Sans Condensed'),  
+		 url('fonts/open_sans_condensed-webfont.woff') format('woff'),  
+		 url('fonts/open_sans_condensed-webfont.ttf') format('truetype'),
+		 url('fonts/open_sans_condensed-webfont.svg#Open Sans Condensed') format('svg');
+		 
+}

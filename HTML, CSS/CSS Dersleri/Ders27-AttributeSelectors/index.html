@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attribute Selectors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Attribute Selectors</h1>
+
+    <p>This is a paragraf without the title attribute</p>
+
+    <p title="second">
+        p[title] selects all paragraphs containing a title attribue
+    </p>
+
+    <p title="third paragraph">
+        p[title~="paragraph"] selects all paragraphs with a title attribute containing the word, paragraph
+    </p>
+
+    <p title="forth paragraph">
+        p[title~="paragraph"] selects all paragraphs with a title attribute containing the word, paragraph. p[title~="paragraph"] selects all paragraphs with a title attribute containing the word, paragraph. p[title~="paragraph"] selects all paragraphs with a
+        title attribute containing the word, paragraph
+    </p>
+
+    <p>
+        <a href="https://www.example1.net" target="_blank">Example 1</a>
+        <a href="http://www.example1.com">Example 2</a>
+    </p>
+
+    <p>
+        <input type="text" name="Name">
+        <input type="button" value="Button">
+    </p>
+
+</body>
+
+</html>

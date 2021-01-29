@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Border</title>
+    <style>
+        body {
+            margin: 0;
+        }
+        
+        .box {
+            width: 120px;
+            height: 120px;
+            background: lightgray;
+            margin: 10px;
+            padding: 10px;
+        }
+        
+        #first {
+            border-top-width: 2px;
+            border-right-width: 3px;
+            border-bottom-width: 4px;
+            border-left-width: 5px;
+            /**/
+            border-top-style: solid;
+            border-right-style: dashed;
+            border-bottom-style: groove;
+            border-left-style: double;
+            /**/
+            border-top-color: lawngreen;
+            border-right-color: lightcoral;
+            border-bottom-color: orchid;
+            border-left-color: olivedrab;
+        }
+        
+        #second {
+            border-top: 2px solid blue;
+            border-top-left-radius: 15px;
+            border-bottom: 2px solid blue;
+            border-bottom-right-radius: 15px
+        }
+        
+        #third {
+            border-radius: 50%;
+        }
+        
+        #mbox {
+            background-color: gray;
+            border-left: 5px solid green;
+            margin: 10px;
+            padding: 20px;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="box" id="first">box 1</div>
+    <div class="box" id="second">box 2</div>
+    <div class="box" id="third">box 3</div>
+
+    <div id="mbox">MessageBox</div>
+
+</body>
+
+</html>

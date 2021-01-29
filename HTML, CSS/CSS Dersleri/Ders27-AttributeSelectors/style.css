@@ -1,0 +1,36 @@
+    p[title] {
+        border: 1px dashed gray;
+        padding: 7px;
+    }
+    
+    p[title="third paragraph"] {
+        /* bu title'a sahip olan etiketler*/
+        background-color: gold;
+    }
+    
+    p[title~=forth] {
+        /* forth ile başlayan*/
+        background-color: red;
+    }
+    
+    a[href^="https"] {
+        /*ilk kelimesi https olan*/
+        color: red;
+    }
+    
+    a[href$="com"] {
+        /*son kelimesi com olan*/
+        color: aqua;
+    }
+    
+    input[type="text"] {
+        display: block;
+        width: 150px;
+        background-color: red;
+    }
+    
+    input[type="button"] {
+        background: cornflowerblue;
+        color: #ffffff;
+        padding: 8px 16px;
+    }
